@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
+import { Estacion,EstacionesData } from '../../providers/estaciones-data';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +9,13 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-    
+  estaciones: Estacion[];
+
+  constructor(public navCtrl: NavController, public service: EstacionesData ) {
+    this.estaciones = [];
   }
 
+  ionViewDidLoad(){
+    this.estaciones =this.service.data;
+  }
 }

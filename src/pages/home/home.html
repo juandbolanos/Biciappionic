@@ -1,5 +1,19 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>Estaciones</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
 
 
 <ion-content padding>
+
+    <ion-card *ngFor="let h of estaciones">
+        <img src="{{h.imagen}}" >
+        <ion-card-content>
+            <ion-card-title>{{h.nombre}}</ion-card-title>
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>
