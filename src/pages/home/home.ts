@@ -18,4 +18,5 @@ export class HomePage {
   ionViewDidLoad(){
     this.estaciones =this.service.data;
   }
+  
 }

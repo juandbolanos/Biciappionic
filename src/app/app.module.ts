@@ -3,6 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
+import { RegistroPage } from '../pages/registro/registro';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -13,7 +14,8 @@ import { EstacionesData} from '../providers/estaciones-data'
   declarations: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    RegistroPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -22,7 +24,8 @@ import { EstacionesData} from '../providers/estaciones-data'
   entryComponents: [
     MyApp,
     HomePage,
-    LoginPage
+    LoginPage,
+    RegistroPage
   ],
   providers: [
     StatusBar,

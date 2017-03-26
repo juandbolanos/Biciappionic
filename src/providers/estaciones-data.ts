@@ -10,8 +10,8 @@ export class EstacionesData {
   }
   loadData() {
     this.data = [
-      { nombre: 'Banco de la republica', disponibles: 2, imagen: 'http://clcdn02.mundotkm.com/2016/02/HELADO5.jpg' },
-      { nombre: 'Banco de la republica', disponibles: 2, imagen: 'http://clcdn02.mundotkm.com/2016/02/HELADO5.jpg' }
+      { nombre: 'Banco de la republica', disponibles: 2, imagen: 'http://caucaextremo.com/site/wp-content/uploads/2017/02/Sistema-Bicipp.jpeg' },
+      { nombre: 'Parque informatico', disponibles: 5, imagen: 'http://popayan.gov.co/sites/default/files/images/fundacion-emtel-006.jpg' }
     ];
   }
 }

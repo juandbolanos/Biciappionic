@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home'
+import { HomePage } from '../home/home';
+import { RegistroPage } from '../registro/registro'
 
 /*
   Generated class for the Login page.
@@ -19,5 +20,7 @@ export class LoginPage {
   login() {
     this.navCtrl.push(HomePage)
   }
-
+  registro() {
+    this.navCtrl.push(RegistroPage)
+  }
 }
