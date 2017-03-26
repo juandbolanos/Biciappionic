@@ -1,25 +1,31 @@
 <ion-content class="login-bg">
 
-  <div class="login-main">
+  <div class="login-main" padding>
 
     <h1 class="login-title" text-right></h1>
+
     <div class="login-inputs">
+      <ion-row>
+        <ion-col col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8>
+          <ion-item color="itemLight">
+            <ion-label color="primary" floating>Usuario</ion-label>
+            <ion-input name="user" type="text"></ion-input>
+          </ion-item>
+        </ion-col>
 
-      <ion-item color="itemLight">
-        <ion-label color="labelLight" floating>Usuario</ion-label>
-        <ion-input name="user" type="text"></ion-input>
-      </ion-item>
-
-      <ion-item color="itemLight">
-        <ion-label color="labelLight" floating>Contraseña</ion-label>
-        <ion-input name="password" type="password"></ion-input>
-      </ion-item>
+        <ion-col col-12 col-md-6 offset-md-6 col-lg-4 offset-lg-8>
+          <ion-item color="itemLight">
+            <ion-label color="primary" floating>Contraseña</ion-label>
+            <ion-input name="password" type="password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
     </div>
 
-
-    <button ion-button block>Registrate</button>
-    <button ion-button block>Entrar</button>
-
+    <ion-row margin-bottom>
+      <button ion-col col-6 col-md-3 offset-md-6 col-lg-2 offset-lg-8 ion-button block>Registrate</button>
+      <button ion-col col-6 col-md-3 col-lg-2 ion-button block>Entrar</button>
+    </ion-row>
 
 
   </div>

@@ -7,20 +7,27 @@ page-login {
     }
     .login-title{
         font-family: Sigmar;
-        font-size: 2em;
-        color: color($colors,"dark");
+        font-size: 3em;
+        color: color($colors,"primary");
     }
     .login-main{
         display: flex;
         flex-direction: column;
         height: 100%;
     }
+    .login-item{
+        font-weight: 2em;
+        color: color($colors,"primary");
+    }
     .login-inputs{
         flex:1;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        font-weight: bold;
-        font-style: italic;
+        font-size: 2em;
+    }
+
+    .text-input-wp{
+        border-color: color($colors,"ambar");
     }
 }

@@ -31,11 +31,14 @@ $colors: (
   dark:       #222,
   itemLight: (
     base: transparent,
-    // color de la letra al escribir en el input
-    contrast: #222
+    
+    contrast: #111
   ),
-  // color de las letras del item
-  labelLight:black
+  
+  ambar:(
+    base:transparent,
+    contrast:#FFC107)
+ 
   
 );
 
