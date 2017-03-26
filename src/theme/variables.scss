@@ -24,16 +24,18 @@ $font-path: "../assets/fonts";
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #CDDC39,
-  secondary:  #FF4081,
+  primary:    #E64A19,
+  secondary:  #5D4037,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
   itemLight: (
     base: transparent,
+    // color de la letra al escribir en el input
     contrast: #222
   ),
-  labelLight:#222
+  // color de las letras del item
+  labelLight:black
   
 );
 
