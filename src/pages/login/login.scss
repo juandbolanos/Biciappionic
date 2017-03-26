@@ -1,8 +1,13 @@
 page-login {
-.login-bg{
+    .login-bg{
     background-image: url('../../assets/img/bicipp.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+    }
+    .login-title{
+        font-family: Sigmar;
+        font-size: 2em;
+        color: color($colors,"secondary");
+    }
 }
