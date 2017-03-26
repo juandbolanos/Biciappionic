@@ -1,17 +1,28 @@
-<ion-content class="login-bg" padding>
+<ion-content class="login-bg">
 
-  <h1 class="login-title" text-right>Inicio de Sesion</h1>
+  <div class="login-main">
 
-  <ion-item>
-    <ion-label floating>Usuario</ion-label>
-    <ion-input name="user" type="text"></ion-input>
-  </ion-item>
+    <h1 class="login-title" text-right>Inicio de Sesion</h1>
+    <div class="login-inputs">
 
-    <ion-item>
-    <ion-label floating>Contraseña</ion-label>
-    <ion-input name="password" type="password"></ion-input>
-  </ion-item>
+      <ion-item color="itemLight">
+        <ion-label color="labelLight" floating>Usuario</ion-label>
+        <ion-input name="user" type="text"></ion-input>
+      </ion-item>
 
-  <button ion-button block>Registrate</button>
-  <button ion-button block>Entrar</button>
+      <ion-item color="itemLight">
+        <ion-label color="labelLight" floating>Contraseña</ion-label>
+        <ion-input name="password" type="password"></ion-input>
+      </ion-item>
+    </div>
+
+
+    <button ion-button block>Registrate</button>
+    <button ion-button block>Entrar</button>
+
+
+
+  </div>
+
+
 </ion-content>
